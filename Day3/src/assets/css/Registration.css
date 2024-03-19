@@ -1,0 +1,128 @@
+/* User.css */
+
+/* Login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    
+    background-image: url('../images/Ad_dash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.reg{
+    text-decoration: none;
+    color: black;
+}
+.reg-nav{
+    display: flex;
+    flex-direction: column;
+}
+/* Card styling */
+.card-container {
+    margin-top: 11%;
+    margin-bottom: 5%;
+    display: flex;
+    width:900; /* Adjust width as needed */
+    height: 650px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-left,
+.card-right {
+    flex: 1;
+    background: #2980B9;  
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+}
+
+.card-left {
+    /* background: #2980B9;  
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); */
+    padding: 20px;
+    padding-top: 20%;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+    border-top-left-radius: 20px;
+    background-image: url('../images/top.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 20px;
+}
+.card-right {
+
+    padding: 20px;
+    padding-top: 5%;
+    /* overflow: auto; */
+
+    
+}
+/* Separator line */
+.separator-line {
+    width: 1px;
+    background-color: #fff;
+}
+
+/* Card body */
+.card-body {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Form Group Label */
+.form-group label {
+    font-weight: bold;
+    font-family: cursive;
+}
+
+/* Form Control (Input) */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+/* Error message */
+.error {
+    color: red;
+    font-family: cursive;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+/* Submit Button */
+button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Success Alert */
+.alert.success {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}

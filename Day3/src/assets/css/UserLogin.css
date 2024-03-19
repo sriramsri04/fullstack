@@ -1,0 +1,140 @@
+/* User.css */
+
+/* Login container */
+.login2-container {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/Ad_dash.jpg');
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.log-nav{
+    display: flex;
+    flex-direction: column;
+}
+/* Card styling */
+.card2-container {
+    margin-top: 100px;
+    display: flex;
+    width: 900px; /* Adjust width as needed */
+    height: 70%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.reg{
+    font-size: medium;
+    font-family: cursive;
+    font-weight:400;
+}
+.reg1{
+    font-size: medium;
+    font-family: cursive;
+    font-weight:400;
+    margin-top: 100px;
+}
+.card2-left,
+.card2-right {
+    
+    flex: 1;
+    background: #2980B9;  
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    
+}
+
+.card2-left {
+    /* background: #2980B9;  
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); */
+    padding: 20px;
+    padding-top: 15%;
+    color: #151313e4;
+    font-size: 30px;
+    border-top-left-radius: 20px;
+    /* background-image: url('../images/Ad_dash.jpg'); */
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 20px;
+    
+}
+.card2-right {
+    padding: 20px;
+    padding-top: 10%;
+    
+}
+/* Separator line */
+.separator-line {
+    width: 1px;
+    background-color: #1b478604;
+}
+
+/* Card body */
+.card2-body {
+    text-align: center;
+    padding-top: 40px;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Form Group Label */
+.form-group label {
+    font-weight: bold;
+    font-family: cursive;
+}
+
+/* Form Control (Input) */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+/* Error message */
+.error {
+    color: red;
+    font-family: cursive;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+/* Submit Button */
+button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Success Alert */
+.alert.success {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}

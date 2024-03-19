@@ -1,0 +1,95 @@
+.bookin-container {
+  width: 52%;
+  margin: 10px auto;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  align-items: center;
+}
+
+.booking-form-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.booking-form-group input,
+.booking-form-group textarea,
+.booking-form-group select,
+.booking-form-group button {
+  width: 90%; /* Set input width to 100% */
+  margin-left: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+.booking-error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.bb {
+  background-image: url('../images/book.jpg');
+  background-size: cover;
+  height: max-content;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+table {
+  width: 100%; /* Set table width to 100% */
+  border-collapse: collapse;
+  margin-bottom: 20px; /* Add some space between the table and other elements */
+}
+
+th,
+td {
+  padding: 1px;
+  border: 1px solid #ccc;
+  width: 10%;
+  margin-left: 50px;
+  font-size: 19px;
+}
+
+th {
+  background-color: #f2f2f2;
+  width: 70%; 
+  margin-left: 100px;
+}
+ 
+.booking-form-group div {
+  margin-bottom: 10px;
+}
+
+.booking-form-group input[type="radio"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+.booking-form-group input[type="radio"] + label {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.booking-form-group button {
+  width: auto;
+  padding: 12px 40px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.booking-form-group button:hover {
+  background-color: #0056b3;
+}
