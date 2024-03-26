@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "boathouse.properties.secret_key",
+    "type": "java.lang.String",
+    "description": "A description for 'boathouse.properties.secret_key'"
+  },
+  {
+    "name": "boathouse.properties.expiration",
+    "type": "java.lang.String",
+    "description": "A description for 'boathouse.properties.expiration'"
+  },
+  {
+    "name": "boathouse.swagger.contact.name",
+    "type": "java.lang.String",
+    "description": "A description for 'boathouse.swagger.contact.name'"
+  },
+  {
+    "name": "boathouse.swagger.contact.email",
+    "type": "java.lang.String",
+    "description": "A description for 'boathouse.swagger.contact.email'"
+  },
+  {
+    "name": "boathouse.swagger.contact.url",
+    "type": "java.lang.String",
+    "description": "A description for 'boathouse.swagger.contact.url'"
+  }
+]}
